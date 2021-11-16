@@ -1,8 +1,0 @@
-[submodule "libaudio"]
-	path = libaudio
-	url = https://github.com/jmscreation/libaudio
-	branch = main
-[submodule "libflite"]
-	path = libflite
-	url = https://github.com/jmscreation/libflite
-	branch = main
