@@ -24,7 +24,7 @@ set ASYNC_BUILD=1
 :: Configure Source For Compiling And Additional Custom Library Directories / Names
 set SOURCE_DIRECTORIES=. ..\src
 set INCLUDE_DIRECTORIES=. ..\include
-set LIBRARY_DIRECTORIES=..\libaudio\libportaudio ..\libaudio ..\libflite
+set LIBRARY_DIRECTORIES=..\libraries\libaudio-main ..\libraries\libportaudio-main ..\libraries\libflite-main
 set LIBRARY_NAMES=portaudio64 flite_cmu_us_kal64 flite_cmu_time_awb64 flite_cmu_us_kal1664 flite_cmu_us_awb64 flite_cmu_us_rms64 flite_cmu_us_slt64 flite_usenglish64 flite_cmulex64 flite64 winmm setupapi
 
 :: Custom Library Support Directory Names
